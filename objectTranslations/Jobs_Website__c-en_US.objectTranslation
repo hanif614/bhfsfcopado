@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Jobs Website</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jobs Websites</value>
+    </caseValues>
+    <fields>
+        <label><!-- Home Page --></label>
+        <name>Home_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- My Profile URL --></label>
+        <name>My_Profile_URL__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

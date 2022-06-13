@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Contract</entityName>
+    <fieldName>Sub_Status__c</fieldName>
+    <masterLabel>Contract Sub-Status</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>ActivatedDate</fieldNames>
+        <fieldNames>EndDate</fieldNames>
+        <info>&lt;p&gt;Please review contract and activate&lt;/p&gt;</info>
+        <picklistValueName>Awaiting President Signature</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CompanySignedId</fieldNames>
+        <fieldNames>CompanySignedDate</fieldNames>
+        <info>&lt;p&gt;Once the VP has signed, move the Sub Status to Awaiting President Signature.&lt;/p&gt;</info>
+        <picklistValueName>Awaiting VP Signature</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Customer</recordTypeName>
+</PathAssistant>

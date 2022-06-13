@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trip</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trips</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Trips --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <lookupFilter>
+            <errorMessage><!-- There are no Contacts matching your search that are associated with the Account you have associated with this trip --></errorMessage>
+            <informationalMessage><!-- Contacts must be associated with the Account you have specified for this trip --></informationalMessage>
+        </lookupFilter>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Trips --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distance Traveled --></label>
+        <name>Distance_Traveled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ending Mileage --></label>
+        <name>Ending_Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Trips --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Starting Mileage --></label>
+        <name>Starting_Mileage__c</name>
+    </fields>
+    <layouts>
+        <layout>Trip Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trip Layout - Admin Only</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Admin only - enables entering trips for other people - i.e. Contacts associated with Accounts --></description>
+        <label><!-- Others --></label>
+        <name>Others</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Primary --></description>
+        <label><!-- Self --></label>
+        <name>Self</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Distance traveled must be a positive value --></errorMessage>
+        <name>Positive_Mileage</name>
+    </validationRules>
+</CustomObjectTranslation>

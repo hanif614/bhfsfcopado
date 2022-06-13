@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Example Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Example Flow</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>Contract</name>
+        <label>Contract</label>
+        <locationX>308</locationX>
+        <locationY>88</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Name</name>
+            <dataType>String</dataType>
+            <fieldText>Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Contract_Number</name>
+            <dataType>Number</dataType>
+            <fieldText>Contract Number</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+        <pausedText>Paused</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Contract</startElementReference>
+    <status>Active</status>
+</Flow>
